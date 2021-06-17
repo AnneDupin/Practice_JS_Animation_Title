@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booklist - JS - By Ziratsu</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Polices -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Ajoutez le livre de votre choix &#128214;</h1>
+
+        <!-- <img src="book-73.gif" alt="gif d'un livre aux pages qui tournent" id="gif__book"> -->
+
+        <form id="book-form">
+
+            <div class="inputs">
+                <label for="titre">Titre</label>
+                <input type="text" id="titre">
+            </div>
+
+            <div class="inputs">
+                <label for="auteur">Auteur.e</label>
+                <input type="text" id="auteur">
+            </div>
+
+            <div class="inputs">
+                <label for="genre">Genre</label>
+                <input type="text" id="genre">
+            </div>
+
+            <div class="inputs">
+                <input type="submit" id="submit" value="Soumettre">
+            </div>
+        </form>
+        <hr>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Titre</th>
+                    <th>Auteur</th>
+                    <th>Genre</th>
+                </tr>
+            </thead>
+
+            <tbody id="book-list">
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+

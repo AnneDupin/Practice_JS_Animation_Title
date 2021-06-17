@@ -1,0 +1,81 @@
+/* Class dynamique */
+
+.success, .error {
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+}
+
+.success {
+    background: green;
+}
+
+.error {
+    background: red;
+}
+
+/* Style */
+
+body {
+    background: whitesmoke;
+    font-family: 'Poppins', sans-serif;  
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif; 
+    text-align: center;
+}
+
+/* #gif__book {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+} */
+
+label {
+    display: block;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+input {
+    background-color: #f3f4ed;
+    display: block;
+    width: 60%;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.inputs {
+    margin: 40px 40px;
+}
+
+#submit {
+    background: #47597e;
+    color: whitesmoke;
+    width: 200px;
+    padding: 20px 20px;
+    line-height: 0px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif; 
+}
+
+/* TABLEAU */
+
+table {
+    width: 100%;
+    margin: auto;
+}
+
+th {
+    width: 33%;
+}
+
+td {
+    text-align: center;
+}
